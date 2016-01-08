@@ -1,0 +1,3 @@
+ - In order to make sure that one response is prioritized over another, you would just have to order your code such that the higher priority responses come first.
+
+1. When a keyword is included within another word, the program still sees the keyword within these words. A problem is that the responses could be completely wrong. For example, if the user inputs "I know", then the program will recognize "no", and respond to it as such.
