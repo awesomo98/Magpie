@@ -19,6 +19,12 @@ public class StringExplorer {
 		System.out.println("After toLowerCase(), sample = " + sample);
 
 		// Try other methods here:
+		int notFoundPsn = sample.indexOf("slow");
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+//		The version of indexOf that uses 2 parameters is
+//		 different from that which uses only 1 because it
+//		finds the first occurence of a substring within a string, but also
+//		starts going to find it from a specified place.
 
 	}
 

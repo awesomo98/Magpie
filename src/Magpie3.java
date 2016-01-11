@@ -112,6 +112,7 @@ public class Magpie3 {
 	 *         it's not found
 	 */
 	private int findKeyword(String statement, String goal) {
+		System.out.println(findKeyword(statement, goal, 0));
 		return findKeyword(statement, goal, 0);
 	}
 
